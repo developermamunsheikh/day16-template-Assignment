@@ -1,0 +1,79 @@
+/* custom Css Start */
+/* Header CSs */
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #101446;
+}
+.header img{
+    width: 100px;
+    height: 60px;
+    padding: 10px 0px;
+}
+.header ul{
+    line-height: 59px;
+margin-bottom: -10px;
+}
+.header ul li:first-child{
+    border-left:1px solid #ddd ;
+   
+}
+.header ul li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+   
+}
+.header ul li a {
+    padding: 0px 19px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: -4px;
+    transition: .7s;
+}
+.header ul li a:hover{
+    cursor: pointer;
+    background-color: rgb(169, 169, 238);
+}
+/* Banner Css */
+.banner{
+    background-image: url(./bgi/intro-bg.jpg);
+    padding: 300px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+}
+.banner-content h2{
+    padding: 10px 0px;
+}
+/* Team Css */
+.team-section{
+    background-color: #BAC1F3;
+}
+.about{
+    background-color: #C2D4EA;
+}
+.left-content {
+    width: 600px;
+    margin-left: 67px !important;
+}
+.ff-arial{
+    font-size: 25px;
+    font-family: arial;
+
+}
+/* Contact Section CSs */
+.fw-bold{
+    font-weight: 800;
+}
+.contact{
+    background-color: #F5F5F5;
+}
+/* Footer Css */
+#footer{
+    font-weight: bold;
+}
+/* Css End */
